@@ -1,22 +1,20 @@
 {
   "name": "task_0",
   "version": "1.0.0",
-  "description": "ALX TypeScript Task 0",
-  "main": "dist/bundle.js",
+  "description": "Task 0 - TypeScript Student Interface",
+  "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open",
-    "tsc": "tsc --noEmit"
+    "start": "webpack serve"
   },
   "devDependencies": {
+    "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
-    "ts-loader": "^9.4.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
-    "@typescript-eslint/parser": "^6.2.1",
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.47.0"
   }
 }
-

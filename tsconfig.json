@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
+    "target": "es5",              // OK, compatible with most browsers
+    "module": "commonjs",         // OK for Node + Webpack
+    "strict": true,               // Great, enforces type checking
+    "esModuleInterop": true,      // Needed if you import ES modules
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "outDir": "./dist"
+    "skipLibCheck": true
   },
-  "include": ["js/**/*.ts"]
+  "include": ["js/**/*"]          // Ensures all TS files in js/ are compiled
 }
-
-
