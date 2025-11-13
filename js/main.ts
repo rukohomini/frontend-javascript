@@ -1,4 +1,5 @@
-// 1. Define the Student interface
+// task_0/js/main.ts
+
 interface Student {
   firstName: string;
   lastName: string;
@@ -6,41 +7,41 @@ interface Student {
   location: string;
 }
 
-// 2. Create two students
 const student1: Student = {
-  firstName: "John",
-  lastName: "Doe",
+  firstName: 'John',
+  lastName: 'Doe',
   age: 20,
-  location: "Lagos"
+  location: 'New York',
 };
 
 const student2: Student = {
-  firstName: "Mary",
-  lastName: "Smith",
+  firstName: 'Jane',
+  lastName: 'Smith',
   age: 22,
-  location: "Abuja"
+  location: 'London',
 };
 
-// 3. Create an array of students
 const studentsList: Student[] = [student1, student2];
 
-// 4. Render a table using Vanilla JS
-const table = document.createElement("table");
-const tableBody = document.createElement("tbody");
+// Create table
+const table = document.createElement('table');
+const tbody = document.createElement('tbody');
 
 studentsList.forEach((student) => {
-  const row = document.createElement("tr");
+  const row = document.createElement('tr');
 
-  const nameCell = document.createElement("td");
-  nameCell.textContent = student.firstName;
+  const firstNameCell = document.createElement('td');
+  firstNameCell.textContent = student.firstName;
+  row.appendChild(firstNameCell);
 
-  const locationCell = document.createElement("td");
+  const locationCell = document.createElement('td');
   locationCell.textContent = student.location;
-
-  row.appendChild(nameCell);
   row.appendChild(locationCell);
-  tableBody.appendChild(row);
+
+  tbody.appendChild(row);
 });
 
-table.appendChild(tableBody);
+table.appendChild(tbody);
 document.body.appendChild(table);
+
+
