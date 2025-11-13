@@ -1,14 +1,19 @@
 # Task 0 - TypeScript Student Interface
 
-This project implements a simple TypeScript program that:
+## Task
+Create a TypeScript interface for students and set up a basic TypeScript project using Webpack.
 
-- Declares a `Student` interface with `firstName`, `lastName`, `age`, and `location`.
-- Creates two student objects.
-- Stores them in a `studentsList` array.
-- Renders a table in the browser showing each student's first name and location.
+## Author
+Rukoh Omini
 
-Technologies used:
+## Description
+This project demonstrates a TypeScript interface for students. It uses TypeScript and Webpack to manage and compile the code.
 
-- TypeScript
-- Vanilla JavaScript
-- Webpack
+## Installation
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+npm install
+
+
