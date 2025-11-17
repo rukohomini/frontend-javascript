@@ -1,19 +1,16 @@
-# Task 0 - TypeScript Student Interface
+# Task 0 - TypeScript
 
-## Task
-Create a TypeScript interface for students and set up a basic TypeScript project using Webpack.
+This directory contains the solution for Task 0 of the 0x04-TypeScript project.
 
-## Author
-Rukoh Omini
+## Files
+- main.ts  
+- package.json  
+- webpack.config.js  
+- tsconfig.json  
 
 ## Description
-This project demonstrates a TypeScript interface for students. It uses TypeScript and Webpack to manage and compile the code.
+This task creates an interface named `Student`, two student objects, an array `studentsList`, and renders the firstName and location of each student in a table.
 
-## Installation
-1. Clone the repository.
-2. Install dependencies:
 
-```bash
-npm install
 
 
